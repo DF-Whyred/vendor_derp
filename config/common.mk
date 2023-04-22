@@ -153,18 +153,6 @@ endif
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.storage_manager.enabled=true
 
-# Rice properties
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.rice.maintainer=Priyanshu \
-    ro.rice.code=SouL \
-    ro.rice.packagetype=GAPPS \
-    ro.rice.releasetype=OFFICIAL \
-    ro.rice.version=EnD \
-    ro.rice.build.version=12.1 \
-    ro.rice.display.version?=$(LINEAGE_DISPLAY_VERSION) \
-    ro.rice.platform_release_codename=Falcon \
-    ro.rice.chipset=SD720G \
-
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
     procmem

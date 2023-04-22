@@ -3,12 +3,14 @@ PRODUCT_PACKAGES += \
     DerpSetupWizard \
     Flipendo \
     GameSpace \
+    GrapheneCamera \
     NetworkStackOverlay \
-    OmniJaws
+    Updater
 
 # Themes
 PRODUCT_PACKAGES += \
     DerpThemesStub \
+    DerpWalls \
     ThemePicker
 
 # Udfps
