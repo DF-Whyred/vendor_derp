@@ -153,6 +153,17 @@ endif
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.storage_manager.enabled=true
 
+# Rice properties
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.rice.code=12L \
+    ro.rice.packagetype=GAPPS \
+    ro.rice.releasetype=OFFICIAL \
+    ro.rice.version=Shinju \
+    ro.rice.build.version=12.1 \
+    ro.rice.display.version?=$(LINEAGE_DISPLAY_VERSION) \
+    ro.rice.platform_release_codename=SDM660 \
+    ro.rice.chipset=SDM636 \
+
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
     procmem

@@ -3,9 +3,8 @@ PRODUCT_PACKAGES += \
     DerpSetupWizard \
     Flipendo \
     GameSpace \
-    GrapheneCamera \
     NetworkStackOverlay \
-    Updater
+    OmniJaws
 
 # Themes
 PRODUCT_PACKAGES += \
